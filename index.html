@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Matrix Terminal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- MATRIX LANDING OVERLAY -->
+  <div id="landing-screen">
+    <canvas id="matrix-canvas"></canvas>
+    <div class="landing-content">
+      <div id="falling-message" aria-label="WELCOME TO MY PAGE"></div>
+      <button id="enter-btn" class="btn-action hidden">[ ENTER_SYSTEM ]</button>
+      <p id="countdown-text" class="hidden">AUTO_ENTRY IN 10s...</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <header id="site-header"></header>
+
+    <main>    
+
+      <div class="card">
+        <h2>&gt; WELCOME_USER</h2>
+        <p>Connection established. Each navigation tab now opens its own dedicated physical HTML file.</p>
+      </div>
+
+      <div class="card-grid">
+        <div class="card">
+          <h2>&gt; MODULE_ALPHA</h2>
+          <p>Explore active builds and interactive code modules in the projects directory.</p>
+          <a href="projects.html" class="btn-action">VIEW_PROJECTS</a>
+        </div>
+        <div class="card">
+          <h2>&gt; MODULE_BETA</h2>
+          <p>Open a direct encrypted channel to send a transmission.</p>
+          <a href="contact.html" class="btn-action">OPEN_CHANNEL</a>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Matrix Terminal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <header id="site-header"></header>
+
+    <main>
+            
+
+      <div class="card">
+        <h2>&gt; TRANSMIT_MESSAGE</h2>
+        <p>Frequency: 104.9 MHz // Encrypted Channel Open. Direct Email: operator@matrix-node.local</p>
+
+        <form id="contact-form" class="matrix-form">
+          <div class="form-group">
+            <label for="sender-name">&gt; IDENTIFIER (NAME):</label>
+            <input type="text" id="sender-name" class="matrix-input" placeholder="Enter your handle..." required>
+          </div>
+
+          <div class="form-group">
+            <label for="sender-email">&gt; RETURN_ADDRESS (EMAIL):</label>
+            <input type="email" id="sender-email" class="matrix-input" placeholder="user@domain.local" required>
+          </div>
+
+          <div class="form-group">
+            <label for="sender-message">&gt; PAYLOAD (MESSAGE):</label>
+            <textarea id="sender-message" class="matrix-input" placeholder="Type encrypted transmission..." required></textarea>
+          </div>
+
+          <div>
+            <button type="submit" class="btn-action">[ TRANSMIT_DATA ]</button>
+          </div>
+        </form>
+
+        <div id="form-status" class="form-status hidden" role="status"></div>
+      </div>
+    </main>
+
+  
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Matrix Terminal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <header id="site-header"></header>
+
+    <main>    
+
+      <div class="card">
+        <h2>&gt; DIRECTORY // ALL_PROJECTS</h2>
+        <p>Select any module below to open its dedicated project file.</p>
+      </div>
+
+      <!-- Cards injected automatically from PROJECTS_DATA in script.js -->
+      <div id="projects-grid" class="card-grid"></div>
+          
+
+    </main>
+  </div>
+
+  <template id="tpl-project-card">
+    <div class="card">
+      <h2 class="card-title"></h2>
+      <p class="card-summary"></p>
+      <div class="tag-list"></div>
+      <a href="#" class="btn-action card-open-link">OPEN_MODULE</a>
+    </div>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>
