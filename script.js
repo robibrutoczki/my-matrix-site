@@ -7,12 +7,17 @@ const PROJECTS_DATA = [
     title: 'PROJECT_ZION',
     summary: 'Full-stack web application built with dark UI principles and high-contrast monospace typography.',
     tags: ['HTML5', 'CSS3', 'VANILLA_JS']
-  },
-  {
+  },  {
     file: 'neural-net.html',
     title: 'NEURAL_NET_V4',
     summary: 'Data dashboard utilizing glowing grid containers and real-time status indicators.',
     tags: ['CANVAS_API', 'TELEMETRY', 'DARK_UI']
+  },
+  {
+    file: 'project-airport.html',
+    title: 'AIRPORT_BOARD',
+    summary: 'Airport arrival and departure display. Demo or real-time status indicators.',
+    tags: ['AIRLABS_API', 'SPLITSCREEN', 'BOARD']
   }
 ];
 
